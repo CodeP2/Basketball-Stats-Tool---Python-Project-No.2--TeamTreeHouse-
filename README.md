@@ -4,8 +4,7 @@ In this project you will be writing a program that reads from the "constants" da
 
 **NOTE**: Python has no concept of actual constants like some other languages out there. But it is a convention in Python to treat ALL CAPS variables as if they are in-fact constants.
 
-# my_dic = {item['name']:item for item in players_copy} dosent work as I want #it does create a var named height and python splits string non int part while converting numbers to int 
-#was trying to use dictionary comprehension but it did create {"YES": True} instead 
+
 **Steps to get started:**
 
 1. Create a new empty script file called `app.py` or `application.py`
