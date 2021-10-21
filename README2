@@ -1,0 +1,34 @@
+I did clean up my code with pycodestyle
+
+my_dic = {item['name']:item for item in players_copy} dosent work as I want wanted to make it all dic so I could easly access it through my_dic['experience'] for example but it didn't 
+work as I wanted because the output was only 1st line of the list and thats is because it only returns keys but dosen't repeat them
+
+height = player['height'].split()
+player['height'] = int(height[0])
+it does create a var named height and python splits string non int part while converting numbers to int I did it the same for the split for guardians and then used .join
+so it will be a string and look nice 
+
+if exp['experience'] is True and index <= 6:
+was trying to use dictionary comprehension but it did create {"YES": True} instead so it was creating dic inside list which wasn't the outcome I wanted
+
+as for the length of my code probably you could do some dic or list comprehensions but this is what I felt was best atm but if theres any adivse for the future how to
+make it better I would appreciate because I want to write the best code I can and well not so long (I do assume I could create funtions to make it smaller but I didn't know
+if that is allowed so I did only 2 functions I was asked for)
+
+                for War_hei in Warriors:
+                    sums += War_hei['height']
+                    Warriors_height.append(sums)
+                War_avg_hei = max(Warriors_height) / len(Warriors)
+wanted to get the max val out of the loop and then divine it by len of the list so I will get the avrg height
+
+                for guardians in Bandits:
+                    Bandits_guardians.append(guardians['guardians'])
+                print('Guardians:')
+                print(', '.join(Bandits_guardians))
+for this I had to use .join again because it did return a list not a str
+
+also by using pystylecode I discovered I should use is for False or True instead of ==
+
+I did import sys so I can make "quit" code line
+
+not sure if I should explain the rest of the code but I will if that is required
