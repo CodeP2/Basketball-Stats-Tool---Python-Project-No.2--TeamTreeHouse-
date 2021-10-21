@@ -7,6 +7,7 @@ height = player['height'].split()
 player['height'] = int(height[0])
 it does create a var named height and python splits string non int part while converting numbers to int I did it the same for the split for guardians and then used .join
 so it will be a string and look nice 
+https://teamtreehouse.com/community/basketball-stats-tool-cleaning-data
 
 if exp['experience'] is True and index <= 6:
 was trying to use dictionary comprehension but it did create {"YES": True} instead so it was creating dic inside list which wasn't the outcome I wanted
